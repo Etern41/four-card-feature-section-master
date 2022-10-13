@@ -95,12 +95,17 @@ section {
 }
 @media screen and (max-width: 1024px) {
   body {
-    height: 200vh;
-    position: relative;
+    height: auto;
+  }
+  body,
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   main {
-    position: absolute;
-    top: 0;
+    margin: 65px 0 auto 0;
     width: 360px;
     margin-top: 25pt;
   }
