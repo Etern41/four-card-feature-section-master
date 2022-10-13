@@ -95,7 +95,7 @@ section {
 }
 @media screen and (max-width: 1024px) {
   body {
-    height: auto;
+    height: 150vh;
   }
   main {
     width: 360px;
