@@ -42,7 +42,7 @@ p {
 }
 
 footer {
-  margin: auto 0 0 0;
+  margin: 50pt 0 0 0;
 }
 section {
   display: grid;
@@ -94,9 +94,12 @@ section {
   font-size: 12px;
 }
 @media screen and (max-width: 1024px) {
+  body {
+    height: auto;
+  }
   main {
     width: 360px;
-    margin-top: 150pt;
+    margin-top: 25pt;
   }
   h1 {
     font-size: 28px;
