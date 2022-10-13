@@ -95,10 +95,12 @@ section {
 }
 @media screen and (max-width: 1024px) {
   body {
-    height: 100%;
+    height: 200vh;
+    position: relative;
   }
   main {
-    height: 100%;
+    position: absolute;
+    top: 0;
     width: 360px;
     margin-top: 25pt;
   }
